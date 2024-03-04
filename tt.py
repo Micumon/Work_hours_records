@@ -1,6 +1,6 @@
 import datetime
 import sys
-from PyQt6.QtWidgets import QApplication, QTableWidget, QMainWindow, QVBoxLayout, QTableWidgetItem
+from PyQt6.QtWidgets import QTableWidget, QTableWidgetItem
 from PyQt6.QtCore import QSize
 from PyQt6.QtGui import QPalette, QColor
 import calendar

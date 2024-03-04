@@ -1,10 +1,11 @@
-from db_connector import my_cursor, db_attendance
-import calendar
+from Func_Classes.db_connector import my_cursor
+import datetime
 
 select_query = "SELECT * FROM workers"
 my_cursor.execute(select_query)
 workers_list = my_cursor.fetchall()
 print(workers_list)
+print(datetime.datetime.today().month)
 #
 # month = [i for i in calendar.Calendar().itermonthdates(2024, 3) if i.month == 3]
 #
